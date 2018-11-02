@@ -10,8 +10,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
-        <ImageView
-            android:src="@mipmap/bwxmsg"
+        <ImageButton
+            android:id="@+id/imgwx"
+            android:src="@mipmap/wxmsg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
@@ -30,8 +31,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
-        <ImageView
-            android:src="@mipmap/bwxall"
+        <ImageButton
+            android:id="@+id/imgtxl"
+            android:src="@mipmap/wxall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
@@ -50,8 +52,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
-        <ImageView
-            android:src="@mipmap/bwxfind"
+        <ImageButton
+            android:id="@+id/imgfind"
+            android:src="@mipmap/wxfind"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
@@ -70,8 +73,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
-        <ImageView
-            android:src="@mipmap/bwxset"
+        <ImageButton
+            android:id="@+id/imgset"
+            android:src="@mipmap/wxset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
